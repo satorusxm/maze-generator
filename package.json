@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A maze generator",
   "main": "dist/index.js",
-  "scripts": {},
+  "scripts": {
+    "temp": "npx tsc src/* --outDir dist && node temp.js"
+  },
   "author": "Saksham <sakshamakagautam@gmail.com>",
   "license": "MIT",
   "devDependencies": {
